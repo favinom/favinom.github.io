@@ -2,14 +2,8 @@
 main:
    - title: "About"
      url: /about/
-   - title: "Seconda Pagina"
-     url: /sp/
+   - title: "Seconda"
+     url: /seconda/
    - title: "CV"
      url: /CV/
-
-
-
-
-
-
 

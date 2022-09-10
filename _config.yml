@@ -34,6 +34,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  newsposts:
+    output: false
+  blogposts:
+    output: true
+    permalink: /blog/:name
+  publications:
+    output: true
+    permalink: /:collection/:name
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
