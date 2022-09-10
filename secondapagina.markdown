@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Seconda Pagina"
-permalink: /about/secondapagina
+permalink: secondapagina
 ---
 
 questa e una seconda pagina
