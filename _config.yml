@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-US"
 title                    : "Marco Favino"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : Computational Scientist # site tagline that appears below site title in masthead
 name                     : "Marco Favino"
 description              : "An amazing website."
 url                      : "https://favinom.github.io" 
@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Marco Favino"
-  avatar           : assets/profile.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : assets/profile2.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an ~~amazing~~ person."
   location         : "Lausanne, Switzerland"
   email            : "marco.favino@unil.ch"
   links:
