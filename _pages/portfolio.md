@@ -5,7 +5,95 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-### Thermoelasticity equations for a cooktop
+### Flow and transport in fractured porous media
+
+One of the major challenges for numerical simulation of fracture media is the creation of adequate computational meshes,
+which resolve the numerous and complex interfaces between the heterogeneities and the embedding background.
+To this end, we have developed a novel method based on adaptive mesh refinement (AMR),
+which allows for the fully automatic creation of meshes for strongly heterogenous media.
+The key concept of the proposed method is to start from an initially uniform coarse mesh and
+then to gradually refine elements which have non-empty overlaps with the embedded heterogeneities.
+This results in a hierarchy of non-uniform meshes with a large number of elements close to the interfaces,
+which do, however, not need to be explicitly resolved.
+This dramatically simplifies and accelerates the laborious and time-consuming process
+of meshing strongly heterogeneous poroelastic media,
+thus enabling the efficient simulation of REVs containing heterogeneities of quasi-arbitrary complexity.
+
+Adaptive mesh refinement for the example __Small Features__
+
+<img src="/assets/maria_n_1.png" alt="mesh_front" width="300"/>
+<img src="/assets/maria_n_2.png" alt="mesh_front" width="300"/>
+
+<img src="/assets/maria_n_3.png" alt="mesh_front" width="300"/>
+<img src="/assets/maria_n_4.png" alt="mesh_front" width="300"/>
+
+Pressure distribution in flow simulation.
+<img src="/assets/pressure_small_features_new-eps-converted-to.pdf" alt="mesh_front" width="500"/>
+
+
+Concentration distribution in three different time steps.
+<img src="/assets/c3_small_features_new-eps-converted-to.pdf" alt="mesh_front" width="500"/>
+
+
+### Poroelasticity for fractured porous media
+
+<img src="/assets/Moose_freq1e-4-eps-converted-to.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/Moose_freq1e0-eps-converted-to.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/Moose_freq1e4-eps-converted-to.pdf" alt="mesh_front" width="400"/>
+
+### Transient wave propagation in heterogeneous media using a Generalized Finite Element Method
+
+Spectral element method (SEM) is usually employed to simulate wave propagation
+together with explicit time-stepping schemes.
+SEM ensures that the matrix to invert at each time step is diagonal,
+rendering the simulations accurate and efficient.
+
+However, for heterogeneous media, while SEM keeps its efficiency,
+its accuracy is reduced due to the low regularity of the solution.
+
+On the other hand, GFEM allows to improve the accuracy even in case of heterogeneous media
+by employing suitable additional basis functions.
+The price to pay is not having a diagonal system to invert at each time step.
+
+Below we report some simulatios performed with a GFEM implemented in **Deal.II**.
+
+
+Example of a domain for a homogenous media.
+<img src="/assets/h_source.pdf" alt="mesh_front" width="400"/>
+
+Mesh is refined in a neighborhood of the source.
+<img src="/assets/h_source_doubleRef2.pdf" alt="mesh_back" width="400"/>
+
+Example of numerical simulation in a homogenous medium.
+Click to see a movie.
+[![Alternate Text](/assets/solution-307.jpg)](/assets/out.mp4 "Video homogeneous media")
+
+Heterogenous domain
+
+<img src="/assets/scatter_source.pdf" alt="mesh_front" width="400"/>
+
+Mesh for the heterogeneous domain
+
+<img src="/assets/meshr_ref_v2.pdf" alt="mesh_front" width="400"/>
+
+Seismogram scattering
+
+<img src="/assets/seismogram_scattering.pdf" alt="mesh_front" width="400"/>
+
+
+### Electro-mechanical coupling in the heart
+
+<img src="/assets/cardio001.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/cardio003.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/cardio005.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/cardio007.jpg" alt="mesh_front" width="310"/>
+
+<img src="/assets/cardio009.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/cardio011.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/cardio013.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/cardio015.jpg" alt="mesh_front" width="310"/>
+
+### Thermoelasticity for a cooktop
 
 Thermoelasticity equations are employed to simulate the deformation of a cooktop
 during its heating process.
@@ -85,126 +173,3 @@ and of 0.2 mm (right).
 <img src="/assets/back10.pdf" alt="mesh_front" width="300"/>
 <img src="/assets/back20.pdf" alt="mesh_back" width="300"/>
 
-
-
-
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
