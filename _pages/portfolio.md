@@ -5,6 +5,13 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+# Poroelasticity equations in dental biomechanics
+
+The periodontal ligament (PDL) is a soft connective tissue that attaches a tooth to the alveolar bone.
+The PDL is mainly composed of collagene fibers and an interstitial fluid.
+
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
