@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Marco Favino"
   avatar           : assets/profile2.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an ~~amazing~~ person."
+  bio              : "I am a Computational Scientist with expertise in numerical solution of mathematical models described by Partial Differential Equations. I am interested in particular in Geoscientific and Biomedical applications."
   location         : "Lausanne, Switzerland"
   email            : "marco.favino@unil.ch"
   links:
