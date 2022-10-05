@@ -18,8 +18,8 @@ nonlinear Biot's equations of poroelasticity are employed.
 Moreover, fine meshes are necessary to accurately represents the complicated geometrical structure of the PDL.
 
 Below, you see the mesh of a two-root porcine tooth-PDL system.
-<img src="/assets/images/01dental/mesh_front.pdf" alt="mesh_front" width="200"/>
-<img src="/assets/images/01dental/mesh_back.pdf" alt="mesh_back" width="200"/>
+<img src="/assets/images/01dental/mesh_front.png" alt="mesh_front" width="200"/>
+<img src="/assets/images/01dental/mesh_back.png" alt="mesh_back" width="200"/>
 
 The mesh of the PDL is colored in blue,
 while the mesh of the tooth is in pink.
@@ -35,13 +35,12 @@ while the PDL as a poroelastic bosy.
 In the figures below, we report the boundary stressed resulting from the application
 of an external displacement (Dirichlet boundary conditions) of 0.1 mm (left)
 and of 0.2 mm (right).
-<img src="/assets/images/01dental/front10.pdf" alt="mesh_front" width="300"/>
-<img src="/assets/images/01dental/front20.pdf" alt="mesh_back" width="300"/>
+<img src="/assets/images/01dental/front10.png" alt="mesh_front" width="300"/>
+<img src="/assets/images/01dental/front20.png" alt="mesh_back" width="300"/>
 
 
 In the figures below, we report the pressure distribution in the PDL
 due to the imposition external displacement (Dirichlet boundary conditions) of 0.1 mm (left)
 and of 0.2 mm (right).
-<img src="/assets/images/01dental/back10.pdf" alt="mesh_front" width="300"/>
-<img src="/assets/images/01dental/back20.pdf" alt="mesh_back" width="300"/>
-
+<img src="/assets/images/01dental/back10.png" alt="mesh_front" width="300"/>
+<img src="/assets/images/01dental/back20.png" alt="mesh_back" width="300"/>
