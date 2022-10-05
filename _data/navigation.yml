@@ -8,7 +8,8 @@ main:
   #   url: /year-archive/
   - title: "Publications"
     url: /publications/
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Research"
+    url: /research/
   - title: "Software"
     url: /software/
+
