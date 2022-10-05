@@ -21,17 +21,17 @@ thus enabling the efficient simulation of REVs containing heterogeneities of qua
 
 Adaptive mesh refinement for the example __Small Features__
 
-<img src="/assets/images/flow-and-transport-equi/maria_n_1.png" alt="mesh_front" width="300"/>
-<img src="/assets/images/flow-and-transport-equi/maria_n_2.png" alt="mesh_front" width="300"/>
+<img src="/assets/images/06flow-and-transport-equi/maria_n_1.png" alt="mesh_front" width="300"/>
+<img src="/assets/images/06flow-and-transport-equi/maria_n_2.png" alt="mesh_front" width="300"/>
 
-<img src="/assets/images/flow-and-transport-equi/maria_n_3.png" alt="mesh_front" width="300"/>
-<img src="/assets/images/flow-and-transport-equi/maria_n_4.png" alt="mesh_front" width="300"/>
+<img src="/assets/images/06flow-and-transport-equi/maria_n_3.png" alt="mesh_front" width="300"/>
+<img src="/assets/images/06flow-and-transport-equi/maria_n_4.png" alt="mesh_front" width="300"/>
 
 Pressure distribution in flow simulation.
-<img src="/assets/images/flow-and-transport-equi/pressure_small_features_new-eps-converted-to.pdf" width="500"/>
+<img src="/assets/images/06flow-and-transport-equi/pressure_small_features_new-eps-converted-to.png" width="500"/>
 
 
 Concentration distribution in three different time steps.
-<img src="/assets/images/flow-and-transport-equi/c3_small_features_new-eps-converted-to.pdf" width="500"/>
+<img src="/assets/images/06flow-and-transport-equi/c3_small_features_new-eps-converted-to.png" width="500"/>
 
 
