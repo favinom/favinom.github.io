@@ -37,6 +37,7 @@ Parrotc exploits adaptive mesh refinement to adapt an initial uniform mesh to an
 Parrotc allows to set different material properties to the background and to each fracture.
 Parrotc allows for 3D simulations, two fluid-phases, and partially saturated fractures.
 Moreover, it exploits several optimization with respect to standard MOOSE apps.
+Parrotc has been developed together with [Juerg Hunziker](https://github.com/jhunziker).
 MOOSEc is not publicly available, it is stored at the [Source Code Management server](Source Code Management)
 of USI and SUPSI. If you are interested, please contact me.
 
