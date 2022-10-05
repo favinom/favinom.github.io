@@ -3,7 +3,7 @@ layout: single
 title:  "Poroelasticity in dental biomechanics"
 # date:   2022-09-17 00:05:13 +0200
 categories: jekyll update
-exampleFigure: front20.pdf
+exampleFigure: front20.png
 ---
 
 
