@@ -6,6 +6,6 @@ title:  "Attenuation and dispersion of seismic waves in fractured porous media"
 exampleFigure: Moose_freq1e0-eps-converted-to.png
 ---
 
-<img src="/assets/images/attenuation-seismic-waves/Moose_freq1e-4-eps-converted-to.pdf" alt="mesh_front" width="400"/>
-<img src="/assets/images/attenuation-seismic-waves/Moose_freq1e0-eps-converted-to.pdf" alt="mesh_front" width="400"/>
-<img src="/assets/images/attenuation-seismic-waves/Moose_freq1e4-eps-converted-to.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/images/05attenuation-seismic-waves/Moose_freq1e-4-eps-converted-to.png" alt="mesh_front" width="400"/>
+<img src="/assets/images/05attenuation-seismic-waves/Moose_freq1e0-eps-converted-to.png" alt="mesh_front" width="400"/>
+<img src="/assets/images/05attenuation-seismic-waves/Moose_freq1e4-eps-converted-to.png" alt="mesh_front" width="400"/>

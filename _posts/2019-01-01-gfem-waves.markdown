@@ -22,25 +22,25 @@ Below we report some simulatios performed with a GFEM implemented in **Deal.II**
 
 
 Example of a domain for a homogenous media.
-<img src="/assets/images/gfem-waves/h_source.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/images/04gfem-waves/h_source.png" alt="mesh_front" width="400"/>
 
 Mesh is refined in a neighborhood of the source.
-<img src="/assets/images/gfem-waves/h_source_doubleRef2.pdf" alt="mesh_back" width="400"/>
+<img src="/assets/images/04gfem-waves/h_source_doubleRef2.png" alt="mesh_back" width="400"/>
 
 Example of numerical simulation in a homogenous medium.
 Click to see a movie.
-[![Alternate Text](/assets/images/gfem-waves/solution-307.jpg)](/assets/images/gfem-waves/out.mp4 "Video homogeneous media")
+[![Alternate Text](/assets/images/04gfem-waves/solution-307.jpg)](/assets/images/04gfem-waves/out.mp4 "Video homogeneous media")
 
 Heterogenous domain
 
-<img src="/assets/images/gfem-waves/scatter_source.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/images/04gfem-waves/scatter_source.png" alt="mesh_front" width="400"/>
 
 Mesh for the heterogeneous domain
 
-<img src="/assets/images/gfem-waves/meshr_ref_v2.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/images/04gfem-waves/meshr_ref_v2.png" alt="mesh_front" width="400"/>
 
 Seismogram scattering
 
-<img src="/assets/images/gfem-waves/seismogram_scattering.pdf" alt="mesh_front" width="400"/>
+<img src="/assets/images/04gfem-waves/seismogram_scattering.png" alt="mesh_front" width="400"/>
 
 
