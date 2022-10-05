@@ -6,13 +6,13 @@ title:  "Electro-mechanical coupling in the heart"
 exampleFigure: cardio.jpg
 ---
 
-<img src="/assets/images/cardio/cardio001.jpg" alt="mesh_front" width="310"/>
-<img src="/assets/images/cardio/cardio003.jpg" alt="mesh_front" width="310"/>
-<img src="/assets/images/cardio/cardio005.jpg" alt="mesh_front" width="310"/>
-<img src="/assets/images/cardio/cardio007.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio001.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio003.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio005.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio007.jpg" alt="mesh_front" width="310"/>
 
-<img src="/assets/images/cardio/cardio009.jpg" alt="mesh_front" width="310"/>
-<img src="/assets/images/cardio/cardio011.jpg" alt="mesh_front" width="310"/>
-<img src="/assets/images/cardio/cardio013.jpg" alt="mesh_front" width="310"/>
-<img src="/assets/images/cardio/cardio015.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio009.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio011.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio013.jpg" alt="mesh_front" width="310"/>
+<img src="/assets/images/03cardio/cardio015.jpg" alt="mesh_front" width="310"/>
 
