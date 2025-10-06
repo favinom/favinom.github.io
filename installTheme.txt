@@ -1,0 +1,104 @@
+1)
+
+# entra nella tua home
+cd ~
+
+# clona rbenv e ruby-build
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+2)
+
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init - bash)"' >> ~/.bash_profile
+exec $SHELL -l
+
+# attento, da installare dentro a bash_profile
+
+
+3) install yaml
+
+cd ~
+curl -LO https://pyyaml.org/download/libyaml/yaml-0.2.5.tar.gz
+tar xzf yaml-0.2.5.tar.gz
+cd yaml-0.2.5
+./configure --prefix="/Users/favinom/.rbenv/yaml"
+make
+make install
+
+4) 
+
+export CPPFLAGS="-I$HOME/.rbenv/yaml/include $CPPFLAGS"
+export LDFLAGS="-L$HOME/.rbenv/yaml/lib $LDFLAGS"
+export PKG_CONFIG_PATH="$HOME/.rbenv/yaml/lib/pkgconfig:$PKG_CONFIG_PATH"
+
+
+5)
+
+# esempio: installiamo Ruby 3.2.2
+RUBY_CONFIGURE_OPTS="--with-libyaml-dir=$HOME/.rbenv/yaml" rbenv install 3.2.2
+
+6) 
+
+cd /percorso/al/tuo/repo
+rbenv local 3.2.2      # crea .ruby-version nella repo
+ruby -v                # verifica: deve mostrare 3.2.2
+ruby -r yaml -e 'puts YAML::VERSION'   # deve stampare una versione => psych OK
+
+7) 
+
+gem install bundler
+gem install jekyll     # opzionale: se userai Gemfile, lo installa bundler
+rbenv rehash
+
+
+8)
+
+cat > Gemfile <<'RUBY'
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "webrick", "~> 1.8"           # necessario con Ruby 3
+gem "jekyll-remote-theme"         # per remote_theme (es. minimal-mistakes)
+
+# Plugin utili e supportati da GitHub Pages
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-include-cache"
+RUBY
+
+bundle install
+
+9)
+bundle exec jekyll clean
+bundle exec jekyll serve
+bundle exec jekyll serve --trace
+
+
+
+What did I do to have minimalmistake
+
+1) copy index.html and _config.yml to my folder
+
+2) inside _posts put the posts
+
+3) I also copied the layout home, since we cannot see the teaser if we do not use grid.
+
+Notice that if you use grid, you have to put the teaser in header: teaser:
+And not image: teaser:
+
+
+4) pages vanno in _pages
+
+5) posts goes in _posts
+
+6) layouts
+- modified home.html to show teasers
+- added a layout myresearch, same code as index
+
+7) In _data put navigation.html
+
+
+
