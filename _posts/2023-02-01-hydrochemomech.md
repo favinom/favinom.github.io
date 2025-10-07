@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "Hydro–Chemo–Mechanical Modeling: Growth and Remodeling/Plasticity"
-date: 2025-10-07
-tags: [hydro-chemo-mechanical, growth, remodeling, plasticity, poromechanics, continuum-mechanics]
+teaserNoGrid: teaserHCM.png
+#date: 2023-02-01
+#tags: [hydro-chemo-mechanical, growth, remodeling, plasticity, poromechanics, continuum-mechanics]
 ---
 
 <!-- Enable MathJax -->
