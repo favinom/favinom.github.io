@@ -120,7 +120,7 @@ This constitutive evolution law drives the internal variable $\mathbf{B}_\gamma$
 
 ### Interpretation
 
-- The decomposition $\mathbf{F} = \mathbf{F}_\mathrm{e}\,\mathbf{F}_\gamma$ separates recoverable (elastic) and irreversible (remodeling/plastic) contributions.  
+- The decomposition $$\mathbf{F} = \mathbf{F}_\mathrm{e}\,\mathbf{F}_\gamma$$ separates recoverable (elastic) and irreversible (remodeling/plastic) contributions.  
 - The tensor $\mathbf{B}_\gamma$ evolves according to a **stress-driven flow rule**, relaxing the deviatoric stresses while preserving volume or other invariants, depending on the specific constitutive assumptions.  
 - This evolution law ensures **energy dissipation** and describes slow structural adaptation, such as **tissue remodeling**, **plastic reorientation**, or **fabric evolution** in geomaterials.
 
