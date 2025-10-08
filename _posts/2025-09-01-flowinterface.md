@@ -1,7 +1,7 @@
 ---
 layout: single
 #title: "Fractures and Thin Heterogeneities as Robin–Wentzell Interface Conditions"
-title: "Interface Conditions for fractures in fluid-flow"
+title: "Interface Conditions for fluid-flow in fractured porous media"
 date: 2025-10-07
 excerpt: "We derive Wentzell-type (flux jump) and Robin-type (flux average) interface conditions for fractures and thin inclusions in Darcy/diffusion problems, providing a weak formulation directly usable in FEM implementations."
 tags: [fractures, porous-media, interface-conditions, Wentzell, Robin, FEM, Darcy]
